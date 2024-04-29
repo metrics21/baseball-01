@@ -34,6 +34,7 @@ class GameTest {
         assertIllegalAgument("12");
         assertIllegalAgument("1234");
         assertIllegalAgument("12s");
+        assertIllegalAgument("121");
     }
 
 }
